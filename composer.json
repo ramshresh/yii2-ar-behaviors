@@ -1,21 +1,27 @@
 {
-    "name": "ramshresh/yii2-ar-behaviors",
-    "description": "ar-behaviors",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "ramshresh",
-            "email": "sendmail4ram@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "ramshresh\\behaviors\\ar\\": ""
-        }
+  "name": "ramshresh/yii2-ar-behaviors",
+  "description": "ar-behaviors",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "ramshresh",
+      "email": "sendmail4ram@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ramshresh\\behaviors\\ar\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "ramshresh\\behaviors\\ar\\Bootstrap"
+  }
 }
