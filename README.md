@@ -39,4 +39,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \ramshresh\ar\behaviors\AutoloadExample::widget(); ?>```
+<?= \ramshresh\behaviors\ar\AutoloadExample::widget(); ?>```
