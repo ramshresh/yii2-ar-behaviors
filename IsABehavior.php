@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\behaviors\ar;
+namespace ramshresh\behaviors\ar;
 
 use Yii;
 use yii\db\BaseActiveRecord;

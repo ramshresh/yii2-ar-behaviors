@@ -64,7 +64,7 @@ class Customer extends ActiveRecord
     {
         return [
             [
-                'class' => 'mdm\behaviors\ar\ExtendedBehavior',
+                'class' => 'ramshresh\behaviors\ar\ExtendedBehavior',
                 'relationClass' => CustomerDetail::className(),
                 'relationKey' => ['id' => 'id'],
             ],
@@ -101,7 +101,7 @@ class Order extends ActiveRecord
     {
         return [
             [
-                'class' => 'mdm\behaviors\ar\RelationBehavior',
+                'class' => 'ramshresh\behaviors\ar\RelationBehavior',
                 'beforeRSave' => function($item){
                     return $item->qty != 0;
                 }

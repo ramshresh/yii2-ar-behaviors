@@ -1,6 +1,6 @@
 <?php
 
-namespace ramshresh\ar\behaviors;
+namespace ramshresh\behaviors\ar;
 
 /**
  * This is just an example.

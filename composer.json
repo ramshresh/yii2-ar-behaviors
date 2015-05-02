@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ramshresh\\ar\\behaviors\\": ""
+            "ramshresh\\behaviors\\ar\\": ""
         }
     }
 }

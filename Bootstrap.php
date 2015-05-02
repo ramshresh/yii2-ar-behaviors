@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\behaviors\ar;
+namespace ramshresh\behaviors\ar;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -19,9 +19,9 @@ class Bootstrap implements \yii\base\BootstrapInterface
      */
     public function bootstrap($app)
     {
-        if (ArrayHelper::getValue($app->params, 'mdm.behaviors.ar.scope', true)) {
+        if (ArrayHelper::getValue($app->params, 'ramshresh.behaviors.ar.scope', true)) {
             Yii::$container->set('yii\db\ActiveQuery', [
-                'as scope' => 'mdm\behaviors\ar\QueryScopeBehavior'
+                'as scope' => 'ramshresh\behaviors\ar\QueryScopeBehavior'
             ]);
         }
     }

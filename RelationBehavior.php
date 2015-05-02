@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\behaviors\ar;
+namespace ramshresh\behaviors\ar;
 
 use yii\db\ActiveRecord;
 use yii\helpers\ArrayHelper;
